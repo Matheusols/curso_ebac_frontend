@@ -1,0 +1,39 @@
+*{
+    font-family: 'roboto',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e7e7e7;
+    padding-top: 100px;
+}
+.container{
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+form{
+    text-align: center;
+
+}
+form, h2{
+    font-weight: bold;
+}
+input, button{
+    padding: 8px;
+    font-size: 20px;
+}
+button{
+    font-weight: bold;
+    cursor: pointer;
+}
+ul, li{
+    padding-top: 10px;
+    list-style-position: inside;
+    text-align: center;
+    width: 90%;
+    margin: 0;
+    cursor: pointer;
+}
+.finalizada{
+    text-decoration: line-through;
+}
