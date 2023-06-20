@@ -1,0 +1,70 @@
+*{
+    font-family: sans-serif, 'roboto';
+}
+body{
+    margin: 0;
+}
+header{
+    background-color: rgb(38, 38, 102);
+    width: 100%;
+    margin: 0 10;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+header h1{
+    color: #FFF;
+}
+.container, #sucesso{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    border-radius: 5px;
+    border: 1px solid #69696949;
+    padding: 20px;
+    background-color: #e2e2e2;
+}
+.form-cadastro{
+    padding: 5px 0;
+    font-weight: bold;
+}
+.form-cadastro label{
+    display: block;
+}
+.form-cadastro input{
+    padding: 8px;
+    width: 300px;
+}
+button{
+    width: 100%;
+    padding: 8px;
+    background-color: rgb(67, 48, 170);
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+}
+button:hover{
+    background-color: rgb(119, 110, 172);
+    cursor: pointer;
+}
+.error{
+    color:#f04040
+}
+#success-message{
+    background-color: green;
+    text-align: center;
+    color: #FFF;
+}
+h2{
+    padding: 10px;
+}
+#sucesso{
+    border-radius: 5px;
+    border: 1px solid #69696949;
+    padding: 20px;
+    background-color: #e2e2e2;
+}
